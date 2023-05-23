@@ -58,6 +58,10 @@ app.get('/ventas', (req,res)=>{
     res.render('ventas')
 });
 
+app.get('/crearVentas', (req,res)=>{
+    res.render('crearVentas')
+});
+
 app.get('/eventos', (req,res)=>{
     res.render('eventos')
 });
