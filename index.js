@@ -115,4 +115,4 @@ app.get('/editarCliente', (req,res)=>{
 
 });
 
-app.listen(port, console.log ('escuchando puerto '+port));
+app.listen(port, console.log ('escuchando por el puerto '+port));
